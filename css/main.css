@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+	
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: myThirdFont;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: myForthFont;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: myFifthFont;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+#toTop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+}
+body{
+	padding:0px;
+	margin:0px;
+}
+h1, h2, h3, h4, h5, ul, a {
+	margin:0;
+	padding:0;
+}
+/*header*/
+.header-top {
+	background:#7d7d7d;
+	padding-top:5px;
+	padding-bottom:35px;
+	/*border-top:3px solid #ffffff;*/
+}
+.header-top ul {
+	/*float:right;*/
+}
+.header-top ul li {
+	text-align:right;
+	font-family: myFifthFont !important;
+	font-size:14px !important;
+	margin-right:30px;
+	list-style:none;
+	float:left;
+	color:#fff;
+	/*font-weight: 600;*/
+}
+.header-top ul li i {
+	color:#ffffff;
+}
+.header-top ul li a {
+	list-style:none;
+	color:#fff;
+}
+.header-top ul li ul li a {
+	list-style:none;
+	color:#000 !important;
+}
+.header-top ul li ul li {
+	list-style:none;
+	color:#000 !important;
+	display: contents;
+    text-align: inherit;
+}
+.header-top ul li ul li a:hover {
+	list-style:none;
+	color:#000 !important;
+	text-decoration:none;
+}
+.header-top ul li a:hover {
+	list-style:none;
+	color:#fff;
+	text-decoration:none;
+}
+.mycnt
+{
+	padding-top: 15px;
+    padding-bottom: 5px;
+	background:#ffffff;
+	border-bottom:3px solid #7d7d7d;
+}
+.logo {
+	position:absolute;
+	z-index:2;
+	top: 0px;
+	left: 10px;
+}
+.navbar-nav {
+	float:right;
+}
+.navbar-nav li {
+	/*text-transform:uppercase;*/
+	color: #000 !important;
+	font-family: myForthFont !important;
+	font-size:17px !important;
+	padding-left:30px;
+}
+.navbar-nav li a {
+	/*text-transform:uppercase;*/
+	color: #000000 !important;
+	font-family: myForthFont !important;
+	font-size:17px !important;
+	margin-bottom: 10px;
+	outline:none !important;
+}
+.navbar-nav li a:hover {
+	/*text-transform:uppercase;*/
+	color: #cccccc !important;
+	font-family: myForthFont !important;
+	font-size:17px !important;
+	outline:none !important;
+	
+}
+.tabs
+{
+	left:193px;
+}
+/*header ends*/
+
+/*banner*/
+.banner
+{
+	margin-top:125px;
+}
+/*banner ends*/
+
+ 
